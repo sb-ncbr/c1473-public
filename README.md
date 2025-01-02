@@ -8,7 +8,7 @@ Bez splnění těchto předpokladů předmět **nelze absolvovat**.
 
 Nemáte-li ještě z jiných důvodů účet v národní infrastruktuře Metacentrum, požádejte o něj vyplněním formuláře https://metavo.metacentrum.cz/cs/application/prihlaska
 
-1. Na tomto vyberte v části "Přímé odkazy na přihlášení přes vybrané instituce" políčko MUNI.
+1. Na tomto odkazu vyberte v části "Přímé odkazy na přihlášení přes vybrané instituce" políčko MUNI.
 2. Formulář vás přesměruje na stránku jednotného přihlášení MU, tam zadáte své IČO a primární heslo.
 3. Po úspěšném přihlášení se dostanete na vlastní formulář přihlášky:
    - Jako důvod k využití infrastruktury uveďte praktická cvičení v předmětu C1473
