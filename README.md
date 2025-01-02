@@ -24,7 +24,7 @@ Nemáte-li ještě z jiných důvodů účet v národní infrastruktuře Metacen
 2. Klikněte na tlačitko přihlášení pomocí e-INFRA CZ AAI
 3. Z nabízených možností vyberte opět "Masaryk University" a zadejte UČO a primární heslo
 4. Zobrazí se vstupní stránka JupyterHub, na ní vyberte "My Server"
-5. Formulář přejde na část "Choosing Image", zvolte variantu "Custom Image" a v ní zadejte `cerit.io/hubs/minimalnb:02-01-2025-ai` a klikněte "Next"
+5. Formulář přejde na část "Choosing Image", zvolte variantu "Custom Image" a v ní zadejte `quay.io/jupyter/minimal-notebook` a klikněte "Next"
 6. V následující části "Choosing storage":
    - Při prvním přístupu vyberte "Persistent Notebook Home" -> "New", vytvoří se váš vlastní pracovní prostor.
    - Při následujícím přístpu volte "Existing" a vyberte variantu `USERNAME-home-default`.
@@ -38,3 +38,20 @@ JypyterHub dovoluje jednomu uživateli spustit více serverů a používat více
 Nastartovaný server zpravidla běží několik dnů, v tom případě vás na něj tlačítko "My Server" na úvodní straně přímo navede. Jinak při návratu postup zopakujte (s volbou druhé alternativy v kroku 6). 
 
 ## Nakopírování podkladů
+
+1. V nastartovaném serveru (prostředi JupyterLab) vyberte položku menu "File" -> "New" -> "Terminal"
+2. Nakopírujte si repozitář podkladů k předmětu: v otevřeném okně terminálu zadejte příkaz
+   
+       git clone https://github.com/ljocha/c1473-public.git
+3. Nainstalujte potřebné pythonové balíčky
+
+       pip install -r c1473-public/requirements.txt
+
+Kopírování repozitáře stačí provést pouze poprvé, instalaci balíčků je třeba zopakovat po případném restartu serveru.
+
+## Stažení dat a ověření funkčnosti prostředí
+
+1. V levém panelu Jupyter Labu proklikněte do adresářů `c1375-public` a `prepare` a dvojklikem nastartujte notebook `prepare.ipynb`
+2. V menu vyberte "Run" -> "Run all cells"
+
+Všechny buňky by měly proběhnout bez chyb a ve výstupu poslední by se měla zobrazit molekula proteinu _Tryptophan cage_ s ovládacími prvky na spuštění animace a ta by měla být funkční.
