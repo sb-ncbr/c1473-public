@@ -37,3 +37,4 @@ JypyterHub dovoluje jednomu uživateli spustit více serverů a používat více
 
 Nastartovaný server zpravidla běží několik dnů, v tom případě vás na něj tlačítko "My Server" na úvodní straně přímo navede. Jinak při návratu postup zopakujte (s volbou druhé alternativy v kroku 6). 
 
+## Nakopírování podkladů
