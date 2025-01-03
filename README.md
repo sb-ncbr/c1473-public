@@ -24,7 +24,7 @@ Nemáte-li ještě z jiných důvodů účet v národní infrastruktuře Metacen
 2. Klikněte na tlačitko přihlášení pomocí e-INFRA CZ AAI
 3. Z nabízených možností vyberte opět "Masaryk University" a zadejte UČO a primární heslo
 4. Zobrazí se vstupní stránka JupyterHub, na ní vyberte "My Server"
-5. Formulář přejde na část "Choosing Image", zvolte variantu "Custom Image" a v ní zadejte `quay.io/jupyter/minimal-notebook` a klikněte "Next"
+5. Formulář přejde na část "Choosing Image", zvolte variantu "Simple Jypyter Images" a "Minimal NB with AI" a klikněte "Next"
 6. V následující části "Choosing storage":
    - Při prvním přístupu vyberte "Persistent Notebook Home" -> "New", vytvoří se váš vlastní pracovní prostor.
    - Při následujícím přístpu volte "Existing" a vyberte variantu `USERNAME-home-default`.
@@ -55,3 +55,5 @@ Kopírování repozitáře stačí provést pouze poprvé, instalaci balíčků 
 2. V menu vyberte "Run" -> "Run all cells"
 
 Všechny buňky by měly proběhnout bez chyb a ve výstupu poslední by se měla zobrazit molekula proteinu _Tryptophan cage_ s ovládacími prvky na spuštění animace a ta by měla být funkční.
+
+Zobrazení molekul knihovnou NGLView je citlivé na prostředí webového prohlížeče. Pokud se místo obrázku zobrazí pouze text `NGLWidget(max_frame=52199)`, vymažte cache prohlížeče (např. v Google Chrome "Settings -> Privacy and Security -> Delete browsing data -> Cached images and files", případně se připojte v anonymním okně.
