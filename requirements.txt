@@ -1,0 +1,7 @@
+jupyter
+nglview
+mdtraj
+numpy
+pandas
+scipy
+matplotlib
