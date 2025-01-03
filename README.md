@@ -51,7 +51,7 @@ Kopírování repozitáře stačí provést pouze poprvé, instalaci balíčků 
 
 ## Stažení dat a ověření funkčnosti prostředí
 
-1. V levém panelu Jupyter Labu proklikněte do adresářů `c1473-public` a `prepare` a dvojklikem nastartujte notebook `prepare.ipynb`
+1. V levém panelu Jupyter Labu proklikněte do adresářů `c1473-public` a `00-prepare` a dvojklikem nastartujte notebook `prepare.ipynb`
 2. V menu vyberte "Run" -> "Run all cells"
 
 Všechny buňky by měly proběhnout bez chyb a ve výstupu poslední by se měla zobrazit molekula proteinu _Tryptophan cage_ s ovládacími prvky na spuštění animace a ta by měla být funkční.
