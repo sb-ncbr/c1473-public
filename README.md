@@ -43,7 +43,10 @@ Nastartovaný server zpravidla běží několik dnů, v tom případě vás na n
 2. Nakopírujte si repozitář podkladů k předmětu: v otevřeném okně terminálu zadejte příkaz
    
        git clone https://github.com/sb-ncbr/c1473-public.git
-3. Nainstalujte potřebné pythonové balíčky
+
+   Tento příkaz se nepovede, pokud z nějakého předchozího pokusu už kopii máte. Původní kopii můžete buď přejmenovat `mv c1473-public stary_pokus.c1473-public` nebo odvážně smazat `rm -r c1473-public` (ale pak se nedivte, že jste o všechny svoje změny přišli).
+   
+4. Nainstalujte potřebné pythonové balíčky
 
        pip install -r c1473-public/requirements.txt
 
