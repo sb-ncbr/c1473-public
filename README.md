@@ -59,4 +59,4 @@ Kopírování repozitáře stačí provést pouze poprvé, instalaci balíčků 
 
 Všechny buňky by měly proběhnout bez chyb a ve výstupu poslední by se měla zobrazit molekula proteinu _Tryptophan cage_ s ovládacími prvky na spuštění animace a ta by měla být funkční.
 
-Zobrazení molekul knihovnou NGLView je citlivé na prostředí webového prohlížeče. Pokud se místo obrázku zobrazí pouze text `NGLWidget(max_frame=52199)`, vymažte cache prohlížeče (např. v Google Chrome "Settings -> Privacy and Security -> Delete browsing data -> Cached images and files" a stránku znovu načtěte, případně se připojte v anonymním okně.
+Zobrazení molekul knihovnou NGLView je citlivé na prostředí webového prohlížeče. Pokud se místo obrázku zobrazí pouze text `NGLWidget(max_frame=52199)`, nebo například `Failed to load model class 'NGLModel' from module 'nglview-js-widgets' Error: No version of module nglview-js-widgets is registered`, vymažte cache prohlížeče (např. v Google Chrome "Settings -> Privacy and Security -> Delete browsing data -> Cached images and files", případně se připojte v anonymním okně.
